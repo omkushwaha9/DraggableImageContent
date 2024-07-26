@@ -4,7 +4,7 @@ import { LuDownload } from "react-icons/lu";
 import { motion } from "framer-motion"
 import BoxForeground from './BoxForeground';
 
-function Card({ reference }) {
+function Box2({ reference }) {
     return (
         <motion.div
         drag
@@ -16,7 +16,7 @@ function Card({ reference }) {
         className=' relative  flex-shrink-0 w-60 h-72 rounded-[45px] bg-zinc-900/90 text-white px-7 py-7 overflow-hidden'>
         <SiPexels />
         <img className= 'p-2 mt-2 '
-        src='https://images.pexels.com/photos/18609055/pexels-photo-18609055/free-photo-of-a-house-with-wires-and-a-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load' />
+        src='https://images.pexels.com/photos/27263839/pexels-photo-27263839/free-photo-of-an-aerial-view-of-a-bridge-over-water.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load' />
         <div className='footer absolute bottom-0 w-full left-0 '>
         <div className='  flex items-center justify-between mb-1 px-5 py-3'>
           <h5>.4mb</h5>
@@ -34,4 +34,4 @@ function Card({ reference }) {
     )
 }
 
-export default Card
+export default Box2
