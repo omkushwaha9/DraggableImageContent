@@ -4,6 +4,7 @@ import { IoClose } from "react-icons/io5";
 import { LuDownload } from "react-icons/lu";
 import { IoCloudUploadOutline } from "react-icons/io5";
 import { motion } from "framer-motion"
+import BoxForeground from './BoxForeground';
 
 function Card({ reference }) {
     return (
@@ -29,8 +30,9 @@ function Card({ reference }) {
          <h3 className='text-md flex justify-center font-semibold'> Download Now </h3>
         </div>
         </div>
-      
+        <BoxForeground/>
         </motion.div>
+        
     )
 }
 

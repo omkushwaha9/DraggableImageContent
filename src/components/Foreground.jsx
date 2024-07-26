@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import Box1 from "./Box1";
+import Box1 from "./boxes/Box1";
 
 
 function Foreground() {
