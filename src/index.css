@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Gill Sans";
+}
+
+::selection{
+  color: rgba(240, 155, 19, 0.764);
+}
