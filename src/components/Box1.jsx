@@ -5,10 +5,16 @@ import { LuDownload } from "react-icons/lu";
 import { IoCloudUploadOutline } from "react-icons/io5";
 import { motion } from "framer-motion"
 
-function Card({ data, reference }) {
+function Card({ reference }) {
     return (
         <motion.div
-        className=' relative w-60 h-72 rounded-[45px] bg-zinc-900/90 text-white px-7 py-7 overflow-hidden'>
+        drag
+            dragConstraints={reference}
+            whileDrag={{ scale: 0.7 }}
+            whileHover={{ scale: 1.1 }}
+            dragElastic={0.1}
+            dragTransition={{ bounceStiffness: 600, bounceDamping: 50 }}
+        className=' relative  flex-shrink-0 w-60 h-72 rounded-[45px] bg-zinc-900/90 text-white px-7 py-7 overflow-hidden'>
         <FaRegFileAlt/>
         <p className='text-sm mt-5 leading-tight font-semibold'>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
         <div className='footer absolute bottom-0 w-full left-0 '>
