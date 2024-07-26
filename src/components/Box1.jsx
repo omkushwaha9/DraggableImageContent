@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaRegFileAlt } from "react-icons/fa";
+import { SiPexels } from "react-icons/si";
 import { IoClose } from "react-icons/io5";
 import { LuDownload } from "react-icons/lu";
 import { IoCloudUploadOutline } from "react-icons/io5";
@@ -15,8 +15,9 @@ function Card({ reference }) {
             dragElastic={0.1}
             dragTransition={{ bounceStiffness: 600, bounceDamping: 50 }}
         className=' relative  flex-shrink-0 w-60 h-72 rounded-[45px] bg-zinc-900/90 text-white px-7 py-7 overflow-hidden'>
-        <FaRegFileAlt/>
-        <p className='text-sm mt-5 leading-tight font-semibold'>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        <SiPexels />
+        <img className= 'p-2 mt-2 '
+        src='https://images.pexels.com/photos/18609055/pexels-photo-18609055/free-photo-of-a-house-with-wires-and-a-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load' />
         <div className='footer absolute bottom-0 w-full left-0 '>
         <div className='  flex items-center justify-between mb-1 px-5 py-3'>
           <h5>.4mb</h5>
