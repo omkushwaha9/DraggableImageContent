@@ -15,11 +15,11 @@ function Box2({ reference }) {
             dragTransition={{ bounceStiffness: 600, bounceDamping: 50 }}
         className=' relative  flex-shrink-0 w-60 h-72 rounded-[45px] bg-zinc-900/90 text-white px-7 py-7 overflow-hidden'>
         <SiPexels />
-        <img className= 'p-2 mt-2 '
-        src='https://images.pexels.com/photos/27263839/pexels-photo-27263839/free-photo-of-an-aerial-view-of-a-bridge-over-water.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load' />
+        <img className= 'p-2 mt-2 rounded-3xl '
+        src='https://images.pexels.com/photos/24405951/pexels-photo-24405951/free-photo-of-view-of-silhouetted-trees-and-green-northern-lights.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' />
         <div className='footer absolute bottom-0 w-full left-0 '>
         <div className='  flex items-center justify-between mb-1 px-5 py-3'>
-          <h5>.4mb</h5>
+          <h5>.10mb</h5>
           <span className='w-7 h-7 bg-zinc-600 rounded-full flex items-center justify-center'>
           <LuDownload size=".7em" color='#fff' />
           </span>

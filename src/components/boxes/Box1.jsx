@@ -15,11 +15,11 @@ function Box1({ reference }) {
             dragTransition={{ bounceStiffness: 600, bounceDamping: 50 }}
         className=' relative  flex-shrink-0 w-60 h-72 rounded-[45px] bg-zinc-900/90 text-white px-7 py-7 overflow-hidden'>
         <SiPexels />
-        <img className= ' h-25 w-40 m-3 rounded-[5px]'
+        <img className= 'h-25 w-40 m-3 rounded-2xl'
         src='https://images.pexels.com/photos/981908/pexels-photo-981908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' />
         <div className='footer absolute bottom-0 w-full left-0 '>
         <div className='  flex items-center justify-between mb-1 px-5 py-3'>
-          <h5>.4mb</h5>
+          <h5>.7mb</h5>
           <span className='w-7 h-7 bg-zinc-600 rounded-full flex items-center justify-center'>
           <LuDownload size=".7em" color='#fff' />
           </span>

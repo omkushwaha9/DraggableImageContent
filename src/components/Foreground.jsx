@@ -9,9 +9,7 @@ function Foreground() {
         <div ref={ref} className=' fixed top-0 z-[3] w-full h-full flex gap-5 flex-wrap p-10'>
         <Box1 reference={ref}/>
         <Box2 reference={ref}/>
-     
-       
-        
+         
 
     </div>
     )
